@@ -3,6 +3,8 @@ import Navbaar from './Navbaar'
 import HeroSection from './HeroSection'
 import Tagline from './Tagline'
 import Cards from './Cards'
+import Tagline_2 from './Tagline_2'
+import Footer from './Footer'
 //this is the home page//
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
      <HeroSection/>
      <Tagline/>
      <Cards/>
+     <Tagline_2/>
+     <Footer/>
     </div>
   )
 }
