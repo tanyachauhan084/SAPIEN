@@ -14,7 +14,7 @@ const Home = () => {
      <Tagline/>
      <Cards/>
      <Tagline_2/>
-     <Footer/>
+     
     </div>
   )
 }
