@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon Sapien-backend/Server.js",
+    "front": "vite",
     "start": "node Server.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongoose": "^9.0.0",

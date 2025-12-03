@@ -7,7 +7,7 @@ try{
 }
 
 catch(error){
-    console.log("connection failed, try sgain in some time later alright")
+    console.log("connection failed")
     process.exit(1);
 }
 }
